@@ -9,9 +9,7 @@ count = 0
 start_time = time.time()
 for coin in coin_type:
     count += int(n / coin)
-    print(n, coin, count)
     n -= coin * int(n / coin)
-    # print(coin, count, n)
     if n <= 0:
         break
 print(count)
