@@ -31,6 +31,7 @@ first = numbers[-1]
 second = numbers[-2]
 result = 0
 
+# TODO 한글 변수명 삭제
 몫, 나머지 = divmod(m, k + 1)
 result = 몫 * (first * k + second) + 나머지 * first
 print(result)
