@@ -4,13 +4,10 @@ import time
 
 n, m, k = map(int, input().split())
 numbers = list(map(int, input().split()))
-
 numbers.sort()
 first = numbers[-1]
 second = numbers[-2]
-
 result = 0
-
 start_time = time.time()
 while True:
     if m == 0:

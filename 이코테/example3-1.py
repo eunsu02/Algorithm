@@ -1,9 +1,7 @@
 import time
 
 n = 1260  # 1260원을 돌려받아야한다고 가정한다.
-
 coin_type = [500, 100, 10]
-
 count = 0
 
 start_time = time.time()
