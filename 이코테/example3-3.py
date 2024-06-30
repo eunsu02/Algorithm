@@ -6,5 +6,5 @@ min_list = []
 for i in range(n):
     num = list(map(int, input().split()))
     min_list.append(min(num))
-
+# 결과 출력
 print(max(min_list))
